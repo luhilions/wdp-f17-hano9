@@ -26,7 +26,12 @@
       border: 6px inset wheat;
     }
     
-    #main {
+    .important {
+      text-decoration: underline;
+      font-weight: bold;
+    }
+    
+    
       
     
   
@@ -38,12 +43,12 @@
 
   <body>
     <h1>My Favorite Animal</h1>
-    <img src="images/ArcticFox.jpg" alt="Artic Fox" style="width:960px;height:640px;"/>
+   <div class="picture"> <img src="images/ArcticFox.jpg" alt="Artic Fox" style="width:960px;height:640px;"/> </div>
     
     
     
-    <p id="text"> The picture above is of an Arctic Fox. Artic Foxes are very unique in that the survive in very cold places where
-      there aren't many of the pray foxes normally hunt. They have to burrow into snow just to find the food to survive.</p>
+    <div id="text"> <p> The picture above is of an <span class="important"> Arctic Fox</span>. Artic Foxes are very unique in that the survive in very cold places where
+      there aren't many of the pray foxes normally hunt. They have to burrow into snow just to find the food to survive.</p> </div>
     
     <a href="index.html">Back to Home Page</a>
   </body>
