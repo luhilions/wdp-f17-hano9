@@ -28,6 +28,7 @@
     
     .main {
        height: 350px;
+       margin: 0px auto;
     }
     
     .footer {
@@ -38,7 +39,7 @@
     .floatleft {
         float:left;
     }
-    
+      
     .floatright {
         float:right;
     }
@@ -47,13 +48,28 @@
         clear: both;
     }
     
+        body {
+      background-image: url('images/texture.jpg');
+      background-color: gray;
+    } 
     
+       a:link { color: blue; }
+       a:visited { color: green; }
+       a:hover { color: orange; text-decoration: none;}
+      /* This removes the underline when hovering */
+       a:active { color: red; }      
+      
     </style>
   </head>
 
   <body>
        <div class="header">Header</div>
-       <div class="nav floatleft">Nav Menu</div>
+       <div class="nav floatleft">Nav Menu <br/>
+         <a href="project4.html">Photo Gallery</a><br/>
+         <a href="project8.html">My Music</a><br/>
+         <a href="project3.html">Favorite Animal</a><br/>
+         <a href="index.html">Home Page</a>
+    </div>
        <div class="sidebar floatright">Sidebar</div>
        <div class="main">Main Content</div>
        <div class"clearfloat"></div>
