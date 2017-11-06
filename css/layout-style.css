@@ -41,7 +41,7 @@
     }
     
         body {
-      background-image: url('images/texture.jpg');
+      background-image: url('../images/texture.jpg');
       background-color: gray;
     } 
     
