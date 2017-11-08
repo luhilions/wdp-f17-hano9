@@ -11,35 +11,35 @@
 
 
 .card {
- position: absolute;
+ position: relative;
  top: 40px;
  left: 110px;
  z-index: 1;
 } 
 
 .kingspades {
- position: absolute;
+ position: relative;
  top: 40px;
  left: 110px;
  z-index: 2;
 } 
 
 .queenhearts {
- position: absolute;
+ position: relative;
  top: 40px;
  left: 110px;
  z-index: 3;
 } 
 
 .jackclubs {
- position: absolute;
+ position: relative;
  top: 40px;
  left: 110px;
  z-index: 4;
 } 
 
 .tendiamonds {
- position: absolute;
+ position: relative;
  top: 40px;
  left: 110px;
  z-index: 5;
